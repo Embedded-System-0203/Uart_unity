@@ -58,31 +58,6 @@ int main ()
             printf("보낸 문자 : %s\n", dat);
             serialWrite(fd_serial, dat);
         }
-        // if (opt == 1)
-        // {
-        //     printf("나 있지");
-        //     if (serialDataAvail(fd_serial))
-        //     {
-        //         printf("1");
-        //         //sprintf(dat, "%s\n", serialRead(fd_serial));
-        //         dat2 = serialRead(fd_serial);
-        //         if (dat2 == '\0')
-        //             continue;
-        //         printf("받은 데이터 : %c\n", dat2);
-        //         fflush(stdout);
-        //         printf("입력 : ");
-        //         scanf("%c", &dat);
-        //         serialWrite(fd_serial, dat);
-        //         printf("보낸 데이터 : %s\n", dat);
-        //     }
-        // }
-        // else if (opt == 2)
-        // {
-        //     printf("입력 : ");
-        //     scanf("%s", &dat);
-        //     printf("보낸 문자 : %s\n", dat);
-        //     serialWrite(fd_serial, dat);
-        // }
         delay (1000);
     }
 }
